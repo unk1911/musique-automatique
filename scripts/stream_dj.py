@@ -51,6 +51,7 @@ CHUNK_SIZE = 32768  # ~185ms of audio at 44100/stereo/16bit
 ADB_AUDIO_PLAYER = Path(__file__).parent.parent.parent / "adb-audio-player"
 LOCAL_DEX = ADB_AUDIO_PLAYER / "bin" / "stream.dex"
 REMOTE_DEX = "/data/local/tmp/stream.dex"
+REQUEST_FILE = Path("/tmp/musique.next")
 
 # Global for signal handler
 _adb_proc: Optional[subprocess.Popen] = None
@@ -261,8 +262,23 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
 
     try:
         while not _stopping:
+            # Check for a manually requested next song
+            result = None
+            if REQUEST_FILE.exists():
+                try:
+                    req_id = REQUEST_FILE.read_text().strip()
+                    REQUEST_FILE.unlink(missing_ok=True)
+                    with open(VECTORS_FILE) as _vf:
+                        vectors = json.load(_vf)
+                    if req_id in vectors:
+                        result = (req_id, vectors[req_id], 1.0)
+                        print("\n  --- Transitioning to requested song ---")
+                except Exception:
+                    pass
+
             # Pick next song
-            result = pick_next(current_data, current_id, vectors, played, variety)
+            if result is None:
+                result = pick_next(current_data, current_id, vectors, played, variety)
             if result is None:
                 # Library exhausted -- discover new music
                 if _anthropic_client:
@@ -336,6 +352,94 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
         print("Done.")
 
 
+def fetch_on_demand(query: str) -> Optional[Tuple[str, Dict]]:
+    """Find or download a song by query. Returns (song_id, song_data) or None."""
+    if not VECTORS_FILE.exists():
+        return None
+    with open(VECTORS_FILE) as f:
+        vectors = json.load(f)
+
+    # Already in library?
+    result = find_seed_song(vectors, query)
+    if result:
+        return result
+
+    # Parse "Artist - Title" or "artist:X,title:Y"
+    artist, title = None, None
+    if ":" in query and "," in query:
+        for part in query.split(","):
+            if ":" in part:
+                k, v = part.split(":", 1)
+                k, v = k.strip(), v.strip()
+                if k == "artist":
+                    artist = v
+                if k == "title":
+                    title = v
+    elif " - " in query:
+        parts = query.split(" - ", 1)
+        artist, title = parts[0].strip(), parts[1].strip()
+
+    if not artist or not title:
+        print(f"Could not parse artist/title from: {query!r}")
+        print('Use format: "Artist - Title" or "artist:X,title:Y"')
+        return None
+
+    # Download
+    load_env()
+    from discover import download_song, analyse_downloaded
+    from discover import song_id as make_sid, save_vectors
+    from embed_songs import generate_song_embedding
+
+    print(f"  Downloading: {artist} - {title}")
+    file_path = download_song(artist, title)
+    if not file_path:
+        print(f"  Download failed.")
+        return None
+
+    rel_path = str(Path(file_path).relative_to(PROJECT_ROOT))
+    audio_features = analyse_downloaded(file_path)
+
+    try:
+        import anthropic as _anthropic
+        _client = _anthropic.Anthropic()
+        embedding = generate_song_embedding(_client, {"artist": artist, "title": title, "album": None})
+    except Exception as exc:
+        print(f"  Embedding failed: {exc}")
+        embedding = {}
+
+    sid = make_sid(artist, title)
+    song_data = {
+        "metadata": {
+            "filename": Path(file_path).name,
+            "path": rel_path,
+            "artist": artist,
+            "title": title,
+            "album": None,
+            "duration": audio_features.get("duration_sec"),
+            "source": "on_demand",
+        },
+        "embedding": embedding,
+        "audio_features": audio_features,
+    }
+    vectors[sid] = song_data
+    save_vectors(vectors)
+    print(f"  Added to library: {artist} - {title}")
+    return sid, song_data
+
+
+def request_next(query: str):
+    """Queue a specific song as the next track (downloads if needed)."""
+    print(f"Fetching: {query}")
+    result = fetch_on_demand(query)
+    if result:
+        song_id, song_data = result
+        meta = song_data["metadata"]
+        REQUEST_FILE.write_text(song_id)
+        print(f"Queued: {meta.get('artist')} - {meta.get('title')}")
+    else:
+        print("Failed to queue song.")
+
+
 def handle_sigint(signum, frame):
     global _stopping
     _stopping = True
@@ -359,6 +463,7 @@ def main():
     )
     parser.add_argument("--seed", help='Seed query, e.g. "artist:Portishead"')
     parser.add_argument("--stop", action="store_true", help="Stop the currently running DJ")
+    parser.add_argument("--next", metavar="QUERY", help='Queue a song as next, e.g. "Lou Reed - Coney Island Baby"')
     parser.add_argument("--variety", type=float, default=None, help="Variety factor 0.0-1.0")
     parser.add_argument("--crossfade", type=int, default=None, help="Base crossfade duration in ms")
     parser.add_argument("--volume", type=int, default=75, help="Volume 0-100 (default: 75)")
@@ -366,6 +471,10 @@ def main():
 
     if args.stop:
         stop_dj()
+        return
+
+    if args.next:
+        request_next(args.next)
         return
 
     if not args.seed:
@@ -391,3 +500,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

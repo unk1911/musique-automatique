@@ -2754,5 +2754,352 @@
       "outro_start_sec": 274.11,
       "duration_sec": 284.2
     }
+  },
+  "fc7e9725": {
+    "metadata": {
+      "filename": "In the Waiting Line.mp3",
+      "path": "music/Zero 7/In the Waiting Line.mp3",
+      "artist": "Zero 7",
+      "title": "In the Waiting Line",
+      "album": null,
+      "duration": 233.7,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 2,
+      "vocality": 7,
+      "era": "2000s",
+      "lyrical_themes": [
+        "waiting",
+        "longing",
+        "patience"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Thievery Corporation",
+        "Bonobo"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "chillout"
+      ]
+    },
+    "audio_features": {
+      "bpm": 161.5,
+      "key": "C",
+      "mode": "major",
+      "confidence": 0.729,
+      "camelot": "8B",
+      "spectral_centroid": 1780.323142565367,
+      "spectral_rolloff": 3905.836365382824,
+      "zero_crossing_rate": 0.05470952480750124,
+      "rms_energy": 0.13211137056350708,
+      "intro_end_sec": 0.16,
+      "outro_start_sec": 225.09,
+      "duration_sec": 233.7
+    }
+  },
+  "49e93040": {
+    "metadata": {
+      "filename": "You Wish.mp3",
+      "path": "music/Nightmares on Wax/You Wish.mp3",
+      "artist": "Nightmares on Wax",
+      "title": "You Wish",
+      "album": null,
+      "duration": 210.83,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 7,
+      "vocality": 4,
+      "era": "90s",
+      "lyrical_themes": [
+        "desire",
+        "longing",
+        "relationships"
+      ],
+      "similar_artists": [
+        "Thievery Corporation",
+        "Massive Attack",
+        "DJ Shadow"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "downtempo",
+        "ambient house"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "A",
+      "mode": "major",
+      "confidence": 0.727,
+      "camelot": "11B",
+      "spectral_centroid": 1085.5200603564451,
+      "spectral_rolloff": 2168.363910960731,
+      "zero_crossing_rate": 0.0461598400502478,
+      "rms_energy": 0.2007761150598526,
+      "intro_end_sec": 1.9,
+      "outro_start_sec": 200.27,
+      "duration_sec": 210.83
+    }
+  },
+  "7c4faa92": {
+    "metadata": {
+      "filename": "Black Baby.mp3",
+      "path": "music/Kruder & Dorfmeister/Black Baby.mp3",
+      "artist": "Kruder & Dorfmeister",
+      "title": "Black Baby",
+      "album": null,
+      "duration": 380.99,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "introspective",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 6,
+      "vocality": 2,
+      "era": "90s",
+      "lyrical_themes": [
+        "urban life",
+        "identity",
+        "contemplation"
+      ],
+      "similar_artists": [
+        "Thievery Corporation",
+        "Nightmares on Wax",
+        "Bonobo"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "ambient",
+        "downtempo"
+      ]
+    },
+    "audio_features": {
+      "bpm": 83.4,
+      "key": "C#",
+      "mode": "minor",
+      "confidence": 0.662,
+      "camelot": "12A",
+      "spectral_centroid": 2290.2812375406684,
+      "spectral_rolloff": 5126.10905878373,
+      "zero_crossing_rate": 0.08168634631353608,
+      "rms_energy": 0.13029111921787262,
+      "intro_end_sec": 18.95,
+      "outro_start_sec": 375.05,
+      "duration_sec": 380.99
+    }
+  },
+  "ef3782fe": {
+    "metadata": {
+      "filename": "Lebanese Blonde.mp3",
+      "path": "music/Thievery Corporation/Lebanese Blonde.mp3",
+      "artist": "Thievery Corporation",
+      "title": "Lebanese Blonde",
+      "album": null,
+      "duration": 289.83,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "sensual",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 6,
+      "vocality": 3,
+      "era": "2000s",
+      "lyrical_themes": [
+        "desire",
+        "mystery",
+        "cultural_fusion"
+      ],
+      "similar_artists": [
+        "Zero 7",
+        "Massive Attack",
+        "Air"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "downtempo",
+        "lounge"
+      ]
+    },
+    "audio_features": {
+      "bpm": 92.3,
+      "key": "A",
+      "mode": "major",
+      "confidence": 0.616,
+      "camelot": "11B",
+      "spectral_centroid": 1830.0560744813467,
+      "spectral_rolloff": 4216.910320301235,
+      "zero_crossing_rate": 0.05726354248027317,
+      "rms_energy": 0.2531186640262604,
+      "intro_end_sec": 0.21,
+      "outro_start_sec": 276.74,
+      "duration_sec": 289.83
+    }
+  },
+  "2533192e": {
+    "metadata": {
+      "filename": "Honey.mp3",
+      "path": "music/Tosca/Honey.mp3",
+      "artist": "Tosca",
+      "title": "Honey",
+      "album": null,
+      "duration": 357.05,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "contemplative",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 5,
+      "vocality": 3,
+      "era": "2000s",
+      "lyrical_themes": [
+        "intimacy",
+        "sweetness",
+        "connection"
+      ],
+      "similar_artists": [
+        "Kruder & Dorfmeister",
+        "Thievery Corporation",
+        "Zero 7"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "chillout",
+        "ambient house"
+      ]
+    },
+    "audio_features": {
+      "bpm": 107.7,
+      "key": "C",
+      "mode": "major",
+      "confidence": 0.652,
+      "camelot": "8B",
+      "spectral_centroid": 1548.9339367993412,
+      "spectral_rolloff": 3226.8004775744976,
+      "zero_crossing_rate": 0.059991565416097674,
+      "rms_energy": 0.21381214261054993,
+      "intro_end_sec": 0.05,
+      "outro_start_sec": 340.54,
+      "duration_sec": 357.05
+    }
+  },
+  "cb98458f": {
+    "metadata": {
+      "filename": "Breathe.mp3",
+      "path": "music/T\u00e9l\u00e9popmusik/Breathe.mp3",
+      "artist": "T\u00e9l\u00e9popmusik",
+      "title": "Breathe",
+      "album": null,
+      "duration": 278.74,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "introspective",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 6,
+      "vocality": 8,
+      "era": "2000s",
+      "lyrical_themes": [
+        "breathing",
+        "mindfulness",
+        "inner peace"
+      ],
+      "similar_artists": [
+        "Zero 7",
+        "Thievery Corporation",
+        "Air"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "trip-hop"
+      ]
+    },
+    "audio_features": {
+      "bpm": 112.3,
+      "key": "F",
+      "mode": "minor",
+      "confidence": 0.819,
+      "camelot": "4A",
+      "spectral_centroid": 1510.4438804414349,
+      "spectral_rolloff": 2963.777702487245,
+      "zero_crossing_rate": 0.06298266835433153,
+      "rms_energy": 0.15277746319770813,
+      "intro_end_sec": 2.0,
+      "outro_start_sec": 278.11,
+      "duration_sec": 278.74
+    }
+  },
+  "8dc45006": {
+    "metadata": {
+      "filename": "Kong.mp3",
+      "path": "music/Bonobo/Kong.mp3",
+      "artist": "Bonobo",
+      "title": "Kong",
+      "album": null,
+      "duration": 237.83,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 8,
+      "danceability": 7,
+      "vocality": 2,
+      "era": "2010s",
+      "lyrical_themes": [
+        "minimal vocals",
+        "atmospheric",
+        "urban landscapes"
+      ],
+      "similar_artists": [
+        "Emancipator",
+        "Tycho",
+        "Kiasmos"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "trip-hop"
+      ]
+    },
+    "audio_features": {
+      "bpm": 95.7,
+      "key": "F#",
+      "mode": "minor",
+      "confidence": 0.746,
+      "camelot": "11A",
+      "spectral_centroid": 1986.0537537197608,
+      "spectral_rolloff": 4483.305178784444,
+      "zero_crossing_rate": 0.07197836708605877,
+      "rms_energy": 0.21851463615894318,
+      "intro_end_sec": 10.22,
+      "outro_start_sec": 235.68,
+      "duration_sec": 237.83
+    }
   }
 }
