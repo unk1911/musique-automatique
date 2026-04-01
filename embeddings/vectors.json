@@ -1,0 +1,2758 @@
+{
+  "5dbba39f": {
+    "metadata": {
+      "filename": "chemical_brothers-dope_coil.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Chemical Brothers/chemical_brothers-dope_coil.mp3",
+      "artist": "Chemical Brothers",
+      "album": null,
+      "title": "Dope Coil",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "intense",
+      "tempo_feel": 7,
+      "instrumentation": "electronic synths, drum machines, bass, samples",
+      "complexity": 7,
+      "danceability": 8,
+      "vocality": 2,
+      "era": "1990s",
+      "lyrical_themes": [
+        "technology",
+        "urban life"
+      ],
+      "similar_artists": [
+        "The Prodigy",
+        "Fatboy Slim",
+        "Underworld"
+      ],
+      "transition_compatibility": [
+        "big beat",
+        "breakbeat"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "F",
+      "mode": "minor",
+      "confidence": 0.404,
+      "camelot": "4A",
+      "spectral_centroid": 1989.9283018011743,
+      "spectral_rolloff": 4482.480673421008,
+      "zero_crossing_rate": 0.08065795203223479,
+      "rms_energy": 0.12555283308029175,
+      "intro_end_sec": 0.09,
+      "outro_start_sec": 303.83,
+      "duration_sec": 305.76
+    }
+  },
+  "217c2201": {
+    "metadata": {
+      "filename": "chemical_brothers-her_jazz.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Chemical Brothers/chemical_brothers-her_jazz.mp3",
+      "artist": "Chemical Brothers",
+      "album": null,
+      "title": "Her Jazz",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "energetic",
+      "tempo_feel": 8,
+      "instrumentation": "electronic beats, synthesizers, samples, bassline",
+      "complexity": 7,
+      "danceability": 9,
+      "vocality": 2,
+      "era": "1990s",
+      "lyrical_themes": [
+        "minimal vocals",
+        "abstract"
+      ],
+      "similar_artists": [
+        "Fatboy Slim",
+        "The Prodigy",
+        "Underworld"
+      ],
+      "transition_compatibility": [
+        "big beat",
+        "electronic dance"
+      ]
+    },
+    "audio_features": {
+      "bpm": 123.0,
+      "key": "A",
+      "mode": "minor",
+      "confidence": 0.59,
+      "camelot": "8A",
+      "spectral_centroid": 2474.3558761867525,
+      "spectral_rolloff": 5483.727493933708,
+      "zero_crossing_rate": 0.10685552839543944,
+      "rms_energy": 0.10809166729450226,
+      "intro_end_sec": 0.49,
+      "outro_start_sec": 517.02,
+      "duration_sec": 517.04
+    }
+  },
+  "0e6072a3": {
+    "metadata": {
+      "filename": "01 - Fun For Me.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Moloko/01 - Fun For Me.mp3",
+      "artist": "Moloko",
+      "album": "Do You Like My Tight Sweater?",
+      "title": "Fun For Me",
+      "duration": 308,
+      "bitrate": 256000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "playful",
+      "tempo_feel": 7,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 9,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "hedonism",
+        "self-indulgence",
+        "pleasure-seeking"
+      ],
+      "similar_artists": [
+        "R\u00f3is\u00edn Murphy",
+        "Bj\u00f6rk",
+        "Massive Attack"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "downtempo",
+        "house"
+      ]
+    },
+    "audio_features": {
+      "bpm": 89.1,
+      "key": "C",
+      "mode": "minor",
+      "confidence": 0.749,
+      "camelot": "5A",
+      "spectral_centroid": 2551.6371673943145,
+      "spectral_rolloff": 5283.728973276061,
+      "zero_crossing_rate": 0.11401611714219821,
+      "rms_energy": 0.2583097219467163,
+      "intro_end_sec": 1.14,
+      "outro_start_sec": 304.83,
+      "duration_sec": 308.32
+    }
+  },
+  "119dc7d1": {
+    "metadata": {
+      "filename": "02 - Jesus Christ Superstar.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Laibach/02 - Jesus Christ Superstar.mp3",
+      "artist": "Laibach",
+      "album": "Jesus Christ Superstars",
+      "title": "Jesus Christ Superstar",
+      "duration": 345,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "General Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "dark",
+      "tempo_feel": 7,
+      "instrumentation": "industrial rock",
+      "complexity": 8,
+      "danceability": 6,
+      "vocality": 9,
+      "era": "90s",
+      "lyrical_themes": [
+        "religious iconography",
+        "power dynamics",
+        "existential questioning"
+      ],
+      "similar_artists": [
+        "Rammstein",
+        "Ministry",
+        "Nine Inch Nails"
+      ],
+      "transition_compatibility": [
+        "industrial metal",
+        "dark electronic"
+      ]
+    },
+    "audio_features": {
+      "bpm": 89.1,
+      "key": "F",
+      "mode": "minor",
+      "confidence": 0.703,
+      "camelot": "4A",
+      "spectral_centroid": 2244.247853782353,
+      "spectral_rolloff": 4795.898678428249,
+      "zero_crossing_rate": 0.09815613514114527,
+      "rms_energy": 0.24516043066978455,
+      "intro_end_sec": 0.67,
+      "outro_start_sec": 345.86,
+      "duration_sec": 345.86
+    }
+  },
+  "cc5aaca9": {
+    "metadata": {
+      "filename": "03 - Day For Night.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Moloko/03 - Day For Night.mp3",
+      "artist": "Moloko",
+      "album": "Do You Like My Tight Sweater?",
+      "title": "Day For Night",
+      "duration": 323,
+      "bitrate": 256000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "seductive",
+      "tempo_feel": 6,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 8,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "sensuality",
+        "nightlife",
+        "urban romance"
+      ],
+      "similar_artists": [
+        "Portishead",
+        "Massive Attack",
+        "Everything But The Girl"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "downtempo"
+      ]
+    },
+    "audio_features": {
+      "bpm": 107.7,
+      "key": "E",
+      "mode": "minor",
+      "confidence": 0.846,
+      "camelot": "9A",
+      "spectral_centroid": 2165.3613109105904,
+      "spectral_rolloff": 4571.212047994676,
+      "zero_crossing_rate": 0.08996398058481053,
+      "rms_energy": 0.18076510727405548,
+      "intro_end_sec": 8.38,
+      "outro_start_sec": 320.34,
+      "duration_sec": 323.53
+    }
+  },
+  "1f520def": {
+    "metadata": {
+      "filename": "03 - Kingdom of God.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Laibach/03 - Kingdom of God.mp3",
+      "artist": "Laibach",
+      "album": "Jesus Christ Superstars",
+      "title": "Kingdom of God",
+      "duration": 337,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "General Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "dark_triumphant",
+      "tempo_feel": 6,
+      "instrumentation": "industrial_rock",
+      "complexity": 8,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "religious_imagery",
+        "political_power",
+        "spiritual_authority"
+      ],
+      "similar_artists": [
+        "Rammstein",
+        "Nine Inch Nails",
+        "Ministry"
+      ],
+      "transition_compatibility": [
+        "industrial",
+        "dark_electronic"
+      ]
+    },
+    "audio_features": {
+      "bpm": 92.3,
+      "key": "E",
+      "mode": "major",
+      "confidence": 0.616,
+      "camelot": "12B",
+      "spectral_centroid": 2326.498709558109,
+      "spectral_rolloff": 5040.058563547036,
+      "zero_crossing_rate": 0.09897360260953608,
+      "rms_energy": 0.20396511256694794,
+      "intro_end_sec": 10.87,
+      "outro_start_sec": 332.02,
+      "duration_sec": 337.84
+    }
+  },
+  "4ab6cb3e": {
+    "metadata": {
+      "filename": "04 - Abuse and Confession.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Laibach/04 - Abuse and Confession.mp3",
+      "artist": "Laibach",
+      "album": "Jesus Christ Superstars",
+      "title": "Abuse and Confession",
+      "duration": 374,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "General Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "dark",
+      "tempo_feel": 6,
+      "instrumentation": "industrial rock",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "religious imagery",
+        "power dynamics",
+        "confession"
+      ],
+      "similar_artists": [
+        "Rammstein",
+        "Ministry",
+        "KMFDM"
+      ],
+      "transition_compatibility": [
+        "industrial",
+        "dark electronic"
+      ]
+    },
+    "audio_features": {
+      "bpm": 152.0,
+      "key": "A",
+      "mode": "minor",
+      "confidence": 0.509,
+      "camelot": "8A",
+      "spectral_centroid": 2417.5632779605407,
+      "spectral_rolloff": 5123.735516645181,
+      "zero_crossing_rate": 0.11174337609530087,
+      "rms_energy": 0.2489136904478073,
+      "intro_end_sec": 16.28,
+      "outro_start_sec": 366.57,
+      "duration_sec": 374.28
+    }
+  },
+  "ff2329c4": {
+    "metadata": {
+      "filename": "04 - I Can't Help Myself.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Moloko/04 - I Can't Help Myself.mp3",
+      "artist": "Moloko",
+      "album": "Do You Like My Tight Sweater?",
+      "title": "I Can't Help Myself",
+      "duration": 344,
+      "bitrate": 256000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "playful",
+      "tempo_feel": 6,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 8,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "desire",
+        "attraction",
+        "self-control",
+        "infatuation"
+      ],
+      "similar_artists": [
+        "Portishead",
+        "Everything But The Girl",
+        "Bj\u00f6rk"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "downtempo",
+        "nu-soul"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "F",
+      "mode": "minor",
+      "confidence": 0.531,
+      "camelot": "4A",
+      "spectral_centroid": 2519.340881168261,
+      "spectral_rolloff": 5412.698789180911,
+      "zero_crossing_rate": 0.10461392066983832,
+      "rms_energy": 0.20267532765865326,
+      "intro_end_sec": 3.72,
+      "outro_start_sec": 338.59,
+      "duration_sec": 344.69
+    }
+  },
+  "c2b79a33": {
+    "metadata": {
+      "filename": "05 - Circus.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Moloko/05 - Circus.mp3",
+      "artist": "Moloko",
+      "album": "Do You Like My Tight Sweater?",
+      "title": "Circus",
+      "duration": 19,
+      "bitrate": 256000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "playful",
+      "tempo_feel": 6,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 8,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "performance",
+        "spectacle",
+        "identity"
+      ],
+      "similar_artists": [
+        "R\u00f3is\u00edn Murphy",
+        "Bj\u00f6rk",
+        "Goldfrapp"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "downtempo"
+      ]
+    },
+    "audio_features": {
+      "bpm": 83.4,
+      "key": "F",
+      "mode": "major",
+      "confidence": 0.751,
+      "camelot": "7B",
+      "spectral_centroid": 1436.1075864464237,
+      "spectral_rolloff": 2965.5698401905665,
+      "zero_crossing_rate": 0.06735086886682243,
+      "rms_energy": 0.02091527171432972,
+      "intro_end_sec": 3.74,
+      "outro_start_sec": 14.35,
+      "duration_sec": 19.85
+    }
+  },
+  "33b69a5d": {
+    "metadata": {
+      "filename": "06 - Lotus Eaters.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Moloko/06 - Lotus Eaters.mp3",
+      "artist": "Moloko",
+      "album": "Do You Like My Tight Sweater?",
+      "title": "Lotus Eaters",
+      "duration": 452,
+      "bitrate": 256000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "dreamy",
+      "tempo_feel": 6,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 8,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "escapism",
+        "sensuality",
+        "hedonism"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Portishead",
+        "Everything But The Girl"
+      ],
+      "transition_compatibility": [
+        "trip-hop",
+        "downtempo"
+      ]
+    },
+    "audio_features": {
+      "bpm": 86.1,
+      "key": "D#",
+      "mode": "major",
+      "confidence": 0.648,
+      "camelot": "5B",
+      "spectral_centroid": 2556.6817035078375,
+      "spectral_rolloff": 5365.6875270571445,
+      "zero_crossing_rate": 0.12114798955393792,
+      "rms_energy": 0.20940598845481873,
+      "intro_end_sec": 0.53,
+      "outro_start_sec": 434.7,
+      "duration_sec": 452.55
+    }
+  },
+  "4e9df27b": {
+    "metadata": {
+      "filename": "06 - Message from the Black Star.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Laibach/06 - Message from the Black Star.mp3",
+      "artist": "Laibach",
+      "album": "Jesus Christ Superstars",
+      "title": "Message from the Black Star",
+      "duration": 350,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "General Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "dark",
+      "tempo_feel": 6,
+      "instrumentation": "industrial rock",
+      "complexity": 8,
+      "danceability": 5,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "political commentary",
+        "mysticism",
+        "social criticism"
+      ],
+      "similar_artists": [
+        "Rammstein",
+        "Kraftwerk",
+        "Ministry"
+      ],
+      "transition_compatibility": [
+        "industrial",
+        "dark wave"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "F#",
+      "mode": "minor",
+      "confidence": 0.526,
+      "camelot": "11A",
+      "spectral_centroid": 2507.8102658024463,
+      "spectral_rolloff": 5159.539802997445,
+      "zero_crossing_rate": 0.11834715181761048,
+      "rms_energy": 0.2865501046180725,
+      "intro_end_sec": 0.46,
+      "outro_start_sec": 339.59,
+      "duration_sec": 350.98
+    }
+  },
+  "462d9f56": {
+    "metadata": {
+      "filename": "08 everlast - hot to death.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/08 everlast - hot to death.mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "Hot to Death",
+      "duration": 228,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "gritty",
+      "tempo_feel": 6,
+      "instrumentation": "hip-hop",
+      "complexity": 6,
+      "danceability": 5,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "street life",
+        "struggle",
+        "authenticity"
+      ],
+      "similar_artists": [
+        "House of Pain",
+        "Cypress Hill",
+        "Beastie Boys"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "blues rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 129.2,
+      "key": "D",
+      "mode": "major",
+      "confidence": 0.591,
+      "camelot": "10B",
+      "spectral_centroid": 2600.4806169498715,
+      "spectral_rolloff": 5238.888692652926,
+      "zero_crossing_rate": 0.12479167656091691,
+      "rms_energy": 0.2157697081565857,
+      "intro_end_sec": 5.41,
+      "outro_start_sec": 225.12,
+      "duration_sec": 229.17
+    }
+  },
+  "cae0f3c2": {
+    "metadata": {
+      "filename": "09 - Deus Ex Machina.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Laibach/09 - Deus Ex Machina.mp3",
+      "artist": "Laibach",
+      "album": "Jesus Christ Superstars",
+      "title": "Deus Ex Machina",
+      "duration": 240,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "General Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "dark",
+      "tempo_feel": 6,
+      "instrumentation": "industrial_electronic",
+      "complexity": 8,
+      "danceability": 5,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "religion",
+        "technology",
+        "authoritarianism"
+      ],
+      "similar_artists": [
+        "Ministry",
+        "Kraftwerk",
+        "Front 242"
+      ],
+      "transition_compatibility": [
+        "industrial",
+        "darkwave"
+      ]
+    },
+    "audio_features": {
+      "bpm": 60.1,
+      "key": "C",
+      "mode": "minor",
+      "confidence": 0.692,
+      "camelot": "5A",
+      "spectral_centroid": 1473.5377104557163,
+      "spectral_rolloff": 3030.2225774205262,
+      "zero_crossing_rate": 0.06552014832372939,
+      "rms_energy": 0.1810685247182846,
+      "intro_end_sec": 0.46,
+      "outro_start_sec": 233.62,
+      "duration_sec": 240.74
+    }
+  },
+  "e2d62238": {
+    "metadata": {
+      "filename": "10 everlast - prince paul.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/10 everlast - prince paul.mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "Prince Paul",
+      "duration": 58,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "hip-hop",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "music industry respect",
+        "artistic collaboration",
+        "hip-hop culture"
+      ],
+      "similar_artists": [
+        "House of Pain",
+        "Cypress Hill",
+        "Del the Funky Homosapien"
+      ],
+      "transition_compatibility": [
+        "alternative hip-hop",
+        "blues-rap fusion"
+      ]
+    },
+    "audio_features": {
+      "bpm": 143.6,
+      "key": "F#",
+      "mode": "major",
+      "confidence": 0.389,
+      "camelot": "2B",
+      "spectral_centroid": 2229.336926257526,
+      "spectral_rolloff": 3868.667009543469,
+      "zero_crossing_rate": 0.14898382732276857,
+      "rms_energy": 0.07598311454057693,
+      "intro_end_sec": 0.98,
+      "outro_start_sec": 57.66,
+      "duration_sec": 58.78
+    }
+  },
+  "afb5a99c": {
+    "metadata": {
+      "filename": "11 Mothers Of The Disappeared.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/U2/11 Mothers Of The Disappeared.mp3",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "title": "Mothers Of The Disappeared",
+      "duration": 314,
+      "bitrate": 192000,
+      "year": null,
+      "genre": "Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "mournful",
+      "tempo_feel": 3,
+      "instrumentation": "atmospheric rock",
+      "complexity": 6,
+      "danceability": 2,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "political oppression",
+        "maternal grief",
+        "human rights"
+      ],
+      "similar_artists": [
+        "R.E.M.",
+        "The Cure",
+        "Simple Minds"
+      ],
+      "transition_compatibility": [
+        "post-punk",
+        "ambient rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "A",
+      "mode": "major",
+      "confidence": 0.787,
+      "camelot": "11B",
+      "spectral_centroid": 1334.515927820908,
+      "spectral_rolloff": 2792.3200213898594,
+      "zero_crossing_rate": 0.04767052815635143,
+      "rms_energy": 0.09748894721269608,
+      "intro_end_sec": 0.0,
+      "outro_start_sec": 297.19,
+      "duration_sec": 314.75
+    }
+  },
+  "e71e4055": {
+    "metadata": {
+      "filename": "12 everlast - today (watch me shine).mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/12 everlast - today (watch me shine).mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "Today",
+      "duration": 301,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "introspective",
+      "tempo_feel": 4,
+      "instrumentation": "hip-hop with blues elements",
+      "complexity": 6,
+      "danceability": 3,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "personal reflection",
+        "life struggles",
+        "redemption"
+      ],
+      "similar_artists": [
+        "House of Pain",
+        "Cypress Hill",
+        "Beastie Boys"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "blues rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 78.3,
+      "key": "E",
+      "mode": "minor",
+      "confidence": 0.789,
+      "camelot": "9A",
+      "spectral_centroid": 2166.281082214837,
+      "spectral_rolloff": 4640.879711430504,
+      "zero_crossing_rate": 0.09355046667482343,
+      "rms_energy": 0.16200292110443115,
+      "intro_end_sec": 1.79,
+      "outro_start_sec": 298.47,
+      "duration_sec": 302.45
+    }
+  },
+  "0e662e50": {
+    "metadata": {
+      "filename": "16 everlast - the letter.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/16 everlast - the letter.mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "The Letter",
+      "duration": 125,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "hip-hop with blues elements",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "personal relationships",
+        "regret",
+        "communication"
+      ],
+      "similar_artists": [
+        "House of Pain",
+        "Cypress Hill",
+        "Eminem"
+      ],
+      "transition_compatibility": [
+        "alternative hip-hop",
+        "blues rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 172.3,
+      "key": "F#",
+      "mode": "minor",
+      "confidence": 0.534,
+      "camelot": "11A",
+      "spectral_centroid": 1900.3255742093572,
+      "spectral_rolloff": 3627.782558990141,
+      "zero_crossing_rate": 0.09054698310654982,
+      "rms_energy": 0.1570083200931549,
+      "intro_end_sec": 0.28,
+      "outro_start_sec": 109.37,
+      "duration_sec": 125.83
+    }
+  },
+  "102930b4": {
+    "metadata": {
+      "filename": "17 everlast - 7 years.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/17 everlast - 7 years.mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "7 Years",
+      "duration": 244,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "blues-rock with hip-hop elements",
+      "complexity": 6,
+      "danceability": 2,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "addiction recovery",
+        "personal struggle",
+        "redemption"
+      ],
+      "similar_artists": [
+        "House of Pain",
+        "Cypress Hill",
+        "Kid Rock"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "blues rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 184.6,
+      "key": "G",
+      "mode": "major",
+      "confidence": 0.736,
+      "camelot": "9B",
+      "spectral_centroid": 2755.038974364925,
+      "spectral_rolloff": 6128.372864255222,
+      "zero_crossing_rate": 0.11567108050220254,
+      "rms_energy": 0.17965933680534363,
+      "intro_end_sec": 0.53,
+      "outro_start_sec": 241.49,
+      "duration_sec": 245.11
+    }
+  },
+  "fc1f480c": {
+    "metadata": {
+      "filename": "Air - 02 - Virgin Suicides - Clouds Up.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Air/Air - 02 - Virgin Suicides - Clouds Up.mp3",
+      "artist": "AIR",
+      "album": "Virgin Suicides",
+      "title": "Clouds Up",
+      "duration": 118,
+      "bitrate": 192000,
+      "year": null,
+      "genre": "Instrumental",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 2,
+      "vocality": 0,
+      "era": "2000s",
+      "lyrical_themes": [
+        "atmospheric",
+        "cinematic",
+        "contemplative"
+      ],
+      "similar_artists": [
+        "Boards of Canada",
+        "Zero 7",
+        "M\u00fam"
+      ],
+      "transition_compatibility": [
+        "ambient",
+        "chillout"
+      ]
+    },
+    "audio_features": {
+      "bpm": 152.0,
+      "key": "B",
+      "mode": "major",
+      "confidence": 0.708,
+      "camelot": "1B",
+      "spectral_centroid": 1385.6474211635523,
+      "spectral_rolloff": 2930.94959232787,
+      "zero_crossing_rate": 0.05999274729088854,
+      "rms_energy": 0.11982181668281555,
+      "intro_end_sec": 0.21,
+      "outro_start_sec": 100.54,
+      "duration_sec": 118.1
+    }
+  },
+  "6f68a3fd": {
+    "metadata": {
+      "filename": "Air - The Virgin Suicides - 03 - Bathroom Girl.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Air/Air - The Virgin Suicides - 03 - Bathroom Girl.mp3",
+      "artist": "Air",
+      "album": "The Virgin Suicides",
+      "title": "Bathroom Girl",
+      "duration": 145,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "Soundtrack",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 2,
+      "vocality": 1,
+      "era": "90s",
+      "lyrical_themes": [
+        "isolation",
+        "adolescence",
+        "suburban ennui"
+      ],
+      "similar_artists": [
+        "Boards of Canada",
+        "M\u00fam",
+        "Zero 7"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 136.0,
+      "key": "G",
+      "mode": "minor",
+      "confidence": 0.954,
+      "camelot": "6A",
+      "spectral_centroid": 1289.3733448769367,
+      "spectral_rolloff": 2686.4974968302504,
+      "zero_crossing_rate": 0.05371132594968178,
+      "rms_energy": 0.19635838270187378,
+      "intro_end_sec": 7.94,
+      "outro_start_sec": 136.7,
+      "duration_sec": 145.92
+    }
+  },
+  "71ff0e59": {
+    "metadata": {
+      "filename": "Air - The Virgin Suicides - 04 - Cemetary Party.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Air/Air - The Virgin Suicides - 04 - Cemetary Party.mp3",
+      "artist": "Air",
+      "album": "The Virgin Suicides",
+      "title": "04",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 2,
+      "vocality": 1,
+      "era": "2000s",
+      "lyrical_themes": [
+        "adolescence",
+        "nostalgia",
+        "coming-of-age"
+      ],
+      "similar_artists": [
+        "Boards of Canada",
+        "Zero 7",
+        "Thievery Corporation"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 64.6,
+      "key": "G",
+      "mode": "minor",
+      "confidence": 0.857,
+      "camelot": "6A",
+      "spectral_centroid": 1095.0891541878489,
+      "spectral_rolloff": 1992.4859138213662,
+      "zero_crossing_rate": 0.06588297248293515,
+      "rms_energy": 0.1289318948984146,
+      "intro_end_sec": 0.14,
+      "outro_start_sec": 151.02,
+      "duration_sec": 156.47
+    }
+  },
+  "e087a603": {
+    "metadata": {
+      "filename": "Air - The Virgin Suicides - 1 - Playground Love.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Air/Air - The Virgin Suicides - 1 - Playground Love.mp3",
+      "artist": "Air",
+      "album": "The Virgin Suicides",
+      "title": "1",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 2,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 1,
+      "vocality": 0,
+      "era": "2000s",
+      "lyrical_themes": [
+        "adolescence",
+        "nostalgia",
+        "coming-of-age"
+      ],
+      "similar_artists": [
+        "Boards of Canada",
+        "Zero 7",
+        "Thievery Corporation"
+      ],
+      "transition_compatibility": [
+        "ambient",
+        "downtempo"
+      ]
+    },
+    "audio_features": {
+      "bpm": 143.6,
+      "key": "C",
+      "mode": "minor",
+      "confidence": 0.863,
+      "camelot": "5A",
+      "spectral_centroid": 1436.0778414588683,
+      "spectral_rolloff": 3096.0188727275527,
+      "zero_crossing_rate": 0.04903764029670059,
+      "rms_energy": 0.22434797883033752,
+      "intro_end_sec": 4.3,
+      "outro_start_sec": 205.94,
+      "duration_sec": 212.17
+    }
+  },
+  "18b8f4a3": {
+    "metadata": {
+      "filename": "Air - The Virgin Suicides - 10 - Ghost Song.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Air/Air - The Virgin Suicides - 10 - Ghost Song.mp3",
+      "artist": "Air",
+      "album": "The Virgin Suicides",
+      "title": "10",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 2,
+      "vocality": 1,
+      "era": "2000s",
+      "lyrical_themes": [
+        "adolescence",
+        "isolation",
+        "suburban ennui"
+      ],
+      "similar_artists": [
+        "Boards of Canada",
+        "Zero 7",
+        "M\u00fam"
+      ],
+      "transition_compatibility": [
+        "ambient",
+        "downtempo"
+      ]
+    },
+    "audio_features": {
+      "bpm": 136.0,
+      "key": "F#",
+      "mode": "minor",
+      "confidence": 0.447,
+      "camelot": "11A",
+      "spectral_centroid": 1444.5134589498757,
+      "spectral_rolloff": 2635.4176481917575,
+      "zero_crossing_rate": 0.09326708965529719,
+      "rms_energy": 0.11243636906147003,
+      "intro_end_sec": 6.64,
+      "outro_start_sec": 111.32,
+      "duration_sec": 120.32
+    }
+  },
+  "68e7ef51": {
+    "metadata": {
+      "filename": "Metamatics - 03 - Blue Water .mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Metamatics/Metamatics - 03 - Blue Water .mp3",
+      "artist": "Metamatics",
+      "album": "CLR429CD",
+      "title": "Blue Water",
+      "duration": 477,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 2,
+      "era": "2000s",
+      "lyrical_themes": [
+        "isolation",
+        "technology",
+        "urban landscapes"
+      ],
+      "similar_artists": [
+        "Boards of Canada",
+        "Aphex Twin",
+        "Autechre"
+      ],
+      "transition_compatibility": [
+        "ambient",
+        "IDM"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "D#",
+      "mode": "minor",
+      "confidence": 0.303,
+      "camelot": "2A",
+      "spectral_centroid": 721.3111476937511,
+      "spectral_rolloff": 1322.2412109375,
+      "zero_crossing_rate": 0.038341703869047616,
+      "rms_energy": 0.09055470675230026,
+      "intro_end_sec": 0.23,
+      "outro_start_sec": 0.33,
+      "duration_sec": 0.47
+    }
+  },
+  "cb44743a": {
+    "metadata": {
+      "filename": "Metamatics - 04 - Somekind.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Metamatics/Metamatics - 04 - Somekind.mp3",
+      "artist": "Metamatics",
+      "album": "SpookTinsel Shoal",
+      "title": "04 Somekind",
+      "duration": 343,
+      "bitrate": 184327,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 2,
+      "era": "2000s",
+      "lyrical_themes": [
+        "technology",
+        "isolation",
+        "urban experience"
+      ],
+      "similar_artists": [
+        "Autechre",
+        "Aphex Twin",
+        "Boards of Canada"
+      ],
+      "transition_compatibility": [
+        "ambient",
+        "IDM"
+      ]
+    },
+    "audio_features": {
+      "bpm": 95.7,
+      "key": "C#",
+      "mode": "minor",
+      "confidence": 0.742,
+      "camelot": "12A",
+      "spectral_centroid": 926.8743750328789,
+      "spectral_rolloff": 1788.5716641353758,
+      "zero_crossing_rate": 0.024108399889735704,
+      "rms_energy": 0.15691979229450226,
+      "intro_end_sec": 0.35,
+      "outro_start_sec": 340.47,
+      "duration_sec": 343.5
+    }
+  },
+  "312aa616": {
+    "metadata": {
+      "filename": "Metamatics - Dayglo Tynsel.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Metamatics/Metamatics - Dayglo Tynsel.mp3",
+      "artist": "Metamatics",
+      "album": "SpookTinselShoal",
+      "title": "Dayglo Tinsel",
+      "duration": 376,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "General Unclassifiable",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 2,
+      "era": "2000s",
+      "lyrical_themes": [
+        "urban alienation",
+        "artificial beauty",
+        "nocturnal wandering"
+      ],
+      "similar_artists": [
+        "Boards of Canada",
+        "Squarepusher",
+        "Aphex Twin"
+      ],
+      "transition_compatibility": [
+        "IDM",
+        "ambient electronic"
+      ]
+    },
+    "audio_features": {
+      "bpm": 95.7,
+      "key": "D",
+      "mode": "minor",
+      "confidence": 0.484,
+      "camelot": "7A",
+      "spectral_centroid": 1338.6584548838994,
+      "spectral_rolloff": 2788.9224181036975,
+      "zero_crossing_rate": 0.046961390538247993,
+      "rms_energy": 0.16195011138916016,
+      "intro_end_sec": 0.39,
+      "outro_start_sec": 371.12,
+      "duration_sec": 376.37
+    }
+  },
+  "6557b171": {
+    "metadata": {
+      "filename": "Metamatics-Dope for the Robot.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Metamatics/Metamatics-Dope for the Robot.mp3",
+      "artist": "Metamatics",
+      "album": null,
+      "title": "Dope For The Robot",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "mechanical",
+      "tempo_feel": 6,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 8,
+      "vocality": 2,
+      "era": "2000s",
+      "lyrical_themes": [
+        "technology",
+        "artificial intelligence",
+        "futurism"
+      ],
+      "similar_artists": [
+        "Aphex Twin",
+        "Autechre",
+        "Squarepusher"
+      ],
+      "transition_compatibility": [
+        "techno",
+        "IDM"
+      ]
+    },
+    "audio_features": {
+      "bpm": 107.7,
+      "key": "G#",
+      "mode": "major",
+      "confidence": 0.42,
+      "camelot": "4B",
+      "spectral_centroid": 2638.664718270744,
+      "spectral_rolloff": 5212.006573359084,
+      "zero_crossing_rate": 0.1113226307404563,
+      "rms_energy": 0.1267474740743637,
+      "intro_end_sec": 10.66,
+      "outro_start_sec": 331.77,
+      "duration_sec": 336.35
+    }
+  },
+  "43d49cca": {
+    "metadata": {
+      "filename": "Portishead - PNYC - 04 - Mysterons.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Portishead/Portishead - PNYC - 04 - Mysterons.mp3",
+      "artist": "Portishead",
+      "album": "PNYC",
+      "title": "Mysterons",
+      "duration": 341,
+      "bitrate": 160000,
+      "year": null,
+      "genre": null,
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "dark",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 2,
+      "vocality": 6,
+      "era": "90s",
+      "lyrical_themes": [
+        "paranoia",
+        "surveillance",
+        "mystery"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Tricky",
+        "Thom Yorke"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 112.3,
+      "key": "A#",
+      "mode": "minor",
+      "confidence": 0.51,
+      "camelot": "3A",
+      "spectral_centroid": 2104.797602768378,
+      "spectral_rolloff": 4367.665740196193,
+      "zero_crossing_rate": 0.08875883891146823,
+      "rms_energy": 0.21862398087978363,
+      "intro_end_sec": 0.21,
+      "outro_start_sec": 330.49,
+      "duration_sec": 342.07
+    }
+  },
+  "82d29bff": {
+    "metadata": {
+      "filename": "Portishead - PNYC - 05 - Only You.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Portishead/Portishead - PNYC - 05 - Only You.mp3",
+      "artist": "Portishead",
+      "album": "PNYC",
+      "title": "Only You",
+      "duration": 320,
+      "bitrate": 160000,
+      "year": null,
+      "genre": null,
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 2,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "longing",
+        "isolation",
+        "romantic dependency"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Thom Yorke",
+        "Bj\u00f6rk"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 123.0,
+      "key": "D",
+      "mode": "minor",
+      "confidence": 0.598,
+      "camelot": "7A",
+      "spectral_centroid": 1974.9110085494458,
+      "spectral_rolloff": 4291.481100214658,
+      "zero_crossing_rate": 0.06095569246567278,
+      "rms_energy": 0.2239435613155365,
+      "intro_end_sec": 0.02,
+      "outro_start_sec": 309.22,
+      "duration_sec": 320.44
+    }
+  },
+  "ad133fb9": {
+    "metadata": {
+      "filename": "Portishead - PNYC - 09 - Sour Times.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Portishead/Portishead - PNYC - 09 - Sour Times.mp3",
+      "artist": "Portishead",
+      "album": "PNYC",
+      "title": "Sour Times",
+      "duration": 318,
+      "bitrate": 160000,
+      "year": null,
+      "genre": null,
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "betrayal",
+        "disillusionment",
+        "emotional vulnerability"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Bj\u00f6rk",
+        "Thom Yorke"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 161.5,
+      "key": "C#",
+      "mode": "major",
+      "confidence": 0.779,
+      "camelot": "3B",
+      "spectral_centroid": 2489.7120799309764,
+      "spectral_rolloff": 5081.723091541415,
+      "zero_crossing_rate": 0.11567162110370115,
+      "rms_energy": 0.23788270354270935,
+      "intro_end_sec": 0.21,
+      "outro_start_sec": 306.16,
+      "duration_sec": 319.01
+    }
+  },
+  "61f635a6": {
+    "metadata": {
+      "filename": "Portishead - PNYC - 11 - Strangers.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Portishead/Portishead - PNYC - 11 - Strangers.mp3",
+      "artist": "Portishead",
+      "album": "PNYC",
+      "title": "Strangers",
+      "duration": 319,
+      "bitrate": 160000,
+      "year": null,
+      "genre": null,
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "isolation",
+        "alienation",
+        "urban disconnection"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Bj\u00f6rk",
+        "Thom Yorke"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient electronica"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "G#",
+      "mode": "major",
+      "confidence": 0.697,
+      "camelot": "4B",
+      "spectral_centroid": 2404.356917802771,
+      "spectral_rolloff": 4763.316034637721,
+      "zero_crossing_rate": 0.11310482979789278,
+      "rms_energy": 0.24348393082618713,
+      "intro_end_sec": 0.51,
+      "outro_start_sec": 305.09,
+      "duration_sec": 320.1
+    }
+  },
+  "35dd299f": {
+    "metadata": {
+      "filename": "Royksopp - Poor Leno.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Royksopp/Royksopp - Poor Leno.mp3",
+      "artist": "R\u00f6yksopp",
+      "album": "Melody A.M.",
+      "title": "Poor Leno",
+      "duration": 237,
+      "bitrate": 192000,
+      "year": null,
+      "genre": "Electronica & Dance",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "melancholic",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 7,
+      "vocality": 3,
+      "era": "2000s",
+      "lyrical_themes": [
+        "loneliness",
+        "media culture",
+        "isolation"
+      ],
+      "similar_artists": [
+        "Air",
+        "Boards of Canada",
+        "Zero 7"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient house"
+      ]
+    },
+    "audio_features": {
+      "bpm": 123.0,
+      "key": "D#",
+      "mode": "minor",
+      "confidence": 0.79,
+      "camelot": "2A",
+      "spectral_centroid": 2405.1580291073365,
+      "spectral_rolloff": 5231.470369852915,
+      "zero_crossing_rate": 0.09262505184444228,
+      "rms_energy": 0.16216184198856354,
+      "intro_end_sec": 7.52,
+      "outro_start_sec": 232.48,
+      "duration_sec": 237.92
+    }
+  },
+  "c3632e29": {
+    "metadata": {
+      "filename": "R\u00f6yksopp - 08 - Remind Me.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Royksopp/R\u00f6yksopp - 08 - Remind Me.mp3",
+      "artist": "R\u00f6yksopp",
+      "album": "melody A.M.",
+      "title": "Remind Me",
+      "duration": 219,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "nostalgic",
+      "tempo_feel": 6,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 7,
+      "vocality": 6,
+      "era": "2000s",
+      "lyrical_themes": [
+        "nostalgia",
+        "memory",
+        "longing"
+      ],
+      "similar_artists": [
+        "Air",
+        "Zero 7",
+        "Boards of Canada"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "chillout",
+        "trip-hop"
+      ]
+    },
+    "audio_features": {
+      "bpm": 123.0,
+      "key": "C",
+      "mode": "major",
+      "confidence": 0.643,
+      "camelot": "8B",
+      "spectral_centroid": 3165.9545020412384,
+      "spectral_rolloff": 7080.008542081229,
+      "zero_crossing_rate": 0.11011217350129575,
+      "rms_energy": 0.10546280443668365,
+      "intro_end_sec": 0.58,
+      "outro_start_sec": 207.35,
+      "duration_sec": 219.5
+    }
+  },
+  "bb4d5676": {
+    "metadata": {
+      "filename": "R\u00f8yksopp - So Easy.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Royksopp/R\u00f8yksopp - So Easy.mp3",
+      "artist": "R\u00f8yksopp",
+      "album": null,
+      "title": "So Easy",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "euphoric",
+      "tempo_feel": 7,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 8,
+      "vocality": 4,
+      "era": "2000s",
+      "lyrical_themes": [
+        "simplicity",
+        "accessibility",
+        "effortlessness"
+      ],
+      "similar_artists": [
+        "Air",
+        "Boards of Canada",
+        "Thievery Corporation"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "chillout",
+        "nu-disco"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "A",
+      "mode": "minor",
+      "confidence": 0.498,
+      "camelot": "8A",
+      "spectral_centroid": 1651.0066642525062,
+      "spectral_rolloff": 3747.985446297288,
+      "zero_crossing_rate": 0.05407021114701326,
+      "rms_energy": 0.12904486060142517,
+      "intro_end_sec": 7.73,
+      "outro_start_sec": 229.53,
+      "duration_sec": 239.83
+    }
+  },
+  "cb212fdc": {
+    "metadata": {
+      "filename": "U2 - 08 trip through your wires.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/U2/U2 - 08 trip through your wires.mp3",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "title": "Trip Through Your Wires",
+      "duration": 212,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "yearning",
+      "tempo_feel": 5,
+      "instrumentation": "rock",
+      "complexity": 6,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "love",
+        "desire",
+        "spiritual_journey"
+      ],
+      "similar_artists": [
+        "R.E.M.",
+        "The Smiths",
+        "Simple Minds"
+      ],
+      "transition_compatibility": [
+        "alternative_rock",
+        "post_punk"
+      ]
+    },
+    "audio_features": {
+      "bpm": 73.8,
+      "key": "G",
+      "mode": "major",
+      "confidence": 0.587,
+      "camelot": "9B",
+      "spectral_centroid": 2546.5526154530285,
+      "spectral_rolloff": 5129.285728927517,
+      "zero_crossing_rate": 0.13500322638228382,
+      "rms_energy": 0.09542178362607956,
+      "intro_end_sec": 0.02,
+      "outro_start_sec": 206.22,
+      "duration_sec": 212.38
+    }
+  },
+  "132c294d": {
+    "metadata": {
+      "filename": "U2 - One Tree Hill.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/U2/U2 - One Tree Hill.mp3",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "title": "One Tree Hill",
+      "duration": 283,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rock/Pop",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "melancholic",
+      "tempo_feel": 5,
+      "instrumentation": "rock",
+      "complexity": 7,
+      "danceability": 3,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "loss",
+        "grief",
+        "remembrance"
+      ],
+      "similar_artists": [
+        "R.E.M.",
+        "Simple Minds",
+        "The Alarm"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "post-punk"
+      ]
+    },
+    "audio_features": {
+      "bpm": 123.0,
+      "key": "C",
+      "mode": "major",
+      "confidence": 0.64,
+      "camelot": "8B",
+      "spectral_centroid": 2181.05241272037,
+      "spectral_rolloff": 4555.2238049116295,
+      "zero_crossing_rate": 0.09833263960040983,
+      "rms_energy": 0.07552315294742584,
+      "intro_end_sec": 15.88,
+      "outro_start_sec": 278.76,
+      "duration_sec": 283.27
+    }
+  },
+  "7bb0136b": {
+    "metadata": {
+      "filename": "U2 - Red Hill Mining Town.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/U2/U2 - Red Hill Mining Town.mp3",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "title": "Red Hill Mining Town",
+      "duration": 293,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "melancholic",
+      "tempo_feel": 5,
+      "instrumentation": "rock",
+      "complexity": 7,
+      "danceability": 3,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "economic hardship",
+        "industrial decline",
+        "social struggle"
+      ],
+      "similar_artists": [
+        "The Alarm",
+        "Simple Minds",
+        "Big Country"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "post-punk"
+      ]
+    },
+    "audio_features": {
+      "bpm": 69.8,
+      "key": "G",
+      "mode": "major",
+      "confidence": 0.798,
+      "camelot": "9B",
+      "spectral_centroid": 2090.6563858468276,
+      "spectral_rolloff": 4138.748585873225,
+      "zero_crossing_rate": 0.10759299167886244,
+      "rms_energy": 0.10162045806646347,
+      "intro_end_sec": 10.19,
+      "outro_start_sec": 287.35,
+      "duration_sec": 293.51
+    }
+  },
+  "1eab9ab2": {
+    "metadata": {
+      "filename": "U2 - The Joshua Tree - 05 - Running To Stand Still.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/U2/U2 - The Joshua Tree - 05 - Running To Stand Still.mp3",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "title": "05 - Running to Stand Still",
+      "duration": 258,
+      "bitrate": 192000,
+      "year": null,
+      "genre": "Rock",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "rock",
+      "complexity": 6,
+      "danceability": 2,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "addiction",
+        "struggle",
+        "urban decay"
+      ],
+      "similar_artists": [
+        "The Smiths",
+        "Echo & the Bunnymen",
+        "Simple Minds"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "post-punk"
+      ]
+    },
+    "audio_features": {
+      "bpm": 184.6,
+      "key": "D",
+      "mode": "major",
+      "confidence": 0.9,
+      "camelot": "10B",
+      "spectral_centroid": 1282.8542241794494,
+      "spectral_rolloff": 2538.930526407344,
+      "zero_crossing_rate": 0.05247690725163853,
+      "rms_energy": 0.047884270548820496,
+      "intro_end_sec": 5.13,
+      "outro_start_sec": 258.61,
+      "duration_sec": 258.61
+    }
+  },
+  "830c9a12": {
+    "metadata": {
+      "filename": "bullitnuts-between.the.eyes.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Bullitnuts/bullitnuts-between.the.eyes.mp3",
+      "artist": "Bullitnuts",
+      "album": null,
+      "title": "Between.The.Eyes",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "aggressive",
+      "tempo_feel": 7,
+      "instrumentation": "rock",
+      "complexity": 6,
+      "danceability": 5,
+      "vocality": 7,
+      "era": "2000s",
+      "lyrical_themes": [
+        "confrontation",
+        "intensity",
+        "direct communication"
+      ],
+      "similar_artists": [
+        "Rage Against the Machine",
+        "Disturbed",
+        "Breaking Benjamin"
+      ],
+      "transition_compatibility": [
+        "alternative metal",
+        "nu-metal"
+      ]
+    },
+    "audio_features": {
+      "bpm": 92.3,
+      "key": "B",
+      "mode": "minor",
+      "confidence": 0.743,
+      "camelot": "10A",
+      "spectral_centroid": 1695.7782278001887,
+      "spectral_rolloff": 3574.7183886180833,
+      "zero_crossing_rate": 0.05116586011830245,
+      "rms_energy": 0.07134292274713516,
+      "intro_end_sec": 18.46,
+      "outro_start_sec": 277.73,
+      "duration_sec": 278.22
+    }
+  },
+  "a5dec4e7": {
+    "metadata": {
+      "filename": "bullitnuts-cheeky.qu.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Bullitnuts/bullitnuts-cheeky.qu.mp3",
+      "artist": "Bullitnuts",
+      "album": null,
+      "title": "Cheeky.Qu",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "playful",
+      "tempo_feel": 6,
+      "instrumentation": "electronic rock",
+      "complexity": 6,
+      "danceability": 7,
+      "vocality": 6,
+      "era": "2010s",
+      "lyrical_themes": [
+        "rebellion",
+        "humor",
+        "youth culture"
+      ],
+      "similar_artists": [
+        "Death Grips",
+        "Ho99o9",
+        "HEALTH"
+      ],
+      "transition_compatibility": [
+        "industrial",
+        "trap metal"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "B",
+      "mode": "minor",
+      "confidence": 0.666,
+      "camelot": "10A",
+      "spectral_centroid": 1739.3223695875004,
+      "spectral_rolloff": 3885.493619103748,
+      "zero_crossing_rate": 0.051608246587923665,
+      "rms_energy": 0.17061132192611694,
+      "intro_end_sec": 0.16,
+      "outro_start_sec": 400.71,
+      "duration_sec": 402.13
+    }
+  },
+  "35225954": {
+    "metadata": {
+      "filename": "bullitnuts-drawing.straws.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Bullitnuts/bullitnuts-drawing.straws.mp3",
+      "artist": "Various Artists",
+      "album": "Sty Wars - A Collection of Por",
+      "title": "Bullitnuts - Drawing Straws",
+      "duration": 384,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Other",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "aggressive",
+      "tempo_feel": 6,
+      "instrumentation": "rock",
+      "complexity": 5,
+      "danceability": 4,
+      "vocality": 6,
+      "era": "2000s",
+      "lyrical_themes": [
+        "conflict",
+        "tension",
+        "decision_making"
+      ],
+      "similar_artists": [
+        "Tool",
+        "Rage Against the Machine",
+        "System of a Down"
+      ],
+      "transition_compatibility": [
+        "alternative_metal",
+        "hard_rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "F",
+      "mode": "minor",
+      "confidence": 0.805,
+      "camelot": "4A",
+      "spectral_centroid": 1464.6327108446299,
+      "spectral_rolloff": 2963.9130632267443,
+      "zero_crossing_rate": 0.06235264553760193,
+      "rms_energy": 0.07332264631986618,
+      "intro_end_sec": 19.34,
+      "outro_start_sec": 376.77,
+      "duration_sec": 384.39
+    }
+  },
+  "6e88939b": {
+    "metadata": {
+      "filename": "bullitnuts-nu.jazz.generation.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Bullitnuts/bullitnuts-nu.jazz.generation.mp3",
+      "artist": "Bullitnuts",
+      "album": null,
+      "title": "Nu.Jazz.Generation",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "sophisticated",
+      "tempo_feel": 5,
+      "instrumentation": "electronic-jazz fusion",
+      "complexity": 7,
+      "danceability": 7,
+      "vocality": 2,
+      "era": "2000s",
+      "lyrical_themes": [
+        "urban culture",
+        "generational identity",
+        "musical evolution"
+      ],
+      "similar_artists": [
+        "Jazzanova",
+        "St. Germain",
+        "Kruder & Dorfmeister"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "trip-hop"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "F",
+      "mode": "minor",
+      "confidence": 0.534,
+      "camelot": "4A",
+      "spectral_centroid": 2270.0480736088634,
+      "spectral_rolloff": 4796.758745538273,
+      "zero_crossing_rate": 0.11342140327902704,
+      "rms_energy": 0.14922679960727692,
+      "intro_end_sec": 0.12,
+      "outro_start_sec": 335.34,
+      "duration_sec": 344.37
+    }
+  },
+  "b216d21e": {
+    "metadata": {
+      "filename": "bullitnuts-toffe.slo.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Bullitnuts/bullitnuts-toffe.slo.mp3",
+      "artist": "Bullitnuts",
+      "album": "A Different Ball Game",
+      "title": "toffe slot",
+      "duration": 384,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "energetic",
+      "tempo_feel": 7,
+      "instrumentation": "electronic",
+      "complexity": 6,
+      "danceability": 8,
+      "vocality": 4,
+      "era": "2010s",
+      "lyrical_themes": [
+        "gaming",
+        "competition",
+        "lifestyle"
+      ],
+      "similar_artists": [
+        "Netsky",
+        "Sub Focus",
+        "High Contrast"
+      ],
+      "transition_compatibility": [
+        "drum_and_bass",
+        "house"
+      ]
+    },
+    "audio_features": {
+      "bpm": 112.3,
+      "key": "F",
+      "mode": "major",
+      "confidence": 0.674,
+      "camelot": "7B",
+      "spectral_centroid": 1949.7826771855425,
+      "spectral_rolloff": 4345.162344902015,
+      "zero_crossing_rate": 0.08011110702762197,
+      "rms_energy": 0.11887728422880173,
+      "intro_end_sec": 0.0,
+      "outro_start_sec": 362.14,
+      "duration_sec": 384.99
+    }
+  },
+  "dab0df13": {
+    "metadata": {
+      "filename": "krematorij-01-giena.ognennaya.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-01-giena.ognennaya.mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "01-Giena.Ognennaya",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "intense",
+      "tempo_feel": 7,
+      "instrumentation": "rock",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "fire",
+        "passion",
+        "rebellion"
+      ],
+      "similar_artists": [
+        "Kino",
+        "Aria",
+        "Alisa"
+      ],
+      "transition_compatibility": [
+        "industrial",
+        "alternative rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 136.0,
+      "key": "E",
+      "mode": "minor",
+      "confidence": 0.717,
+      "camelot": "9A",
+      "spectral_centroid": 1951.3971056295381,
+      "spectral_rolloff": 4265.433093329161,
+      "zero_crossing_rate": 0.06565128317383584,
+      "rms_energy": 0.1447611302137375,
+      "intro_end_sec": 20.67,
+      "outro_start_sec": 220.03,
+      "duration_sec": 235.34
+    }
+  },
+  "e1a04299": {
+    "metadata": {
+      "filename": "krematorij-04-kaini.dizaini.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-04-kaini.dizaini.mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "04-Kaini.Dizaini",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "dark introspective",
+      "tempo_feel": 6,
+      "instrumentation": "rock",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "existentialism",
+        "biblical allegory",
+        "moral conflict"
+      ],
+      "similar_artists": [
+        "Kino",
+        "Aquarium",
+        "DDT"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "post-punk"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "G",
+      "mode": "major",
+      "confidence": 0.733,
+      "camelot": "9B",
+      "spectral_centroid": 2654.581305193756,
+      "spectral_rolloff": 5487.147497638157,
+      "zero_crossing_rate": 0.12296169155630288,
+      "rms_energy": 0.15047377347946167,
+      "intro_end_sec": 10.82,
+      "outro_start_sec": 164.61,
+      "duration_sec": 167.42
+    }
+  },
+  "00db563d": {
+    "metadata": {
+      "filename": "krematorij-05-kot.(sublimaciya).mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-05-kot.(sublimaciya).mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "05-Kot.(Sublimaciya)",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 7,
+      "mood": "melancholic",
+      "tempo_feel": 6,
+      "instrumentation": "rock",
+      "complexity": 6,
+      "danceability": 3,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "existential_reflection",
+        "transformation",
+        "inner_struggle"
+      ],
+      "similar_artists": [
+        "Kino",
+        "Aquarium",
+        "DDT"
+      ],
+      "transition_compatibility": [
+        "post-punk",
+        "alternative_rock"
+      ]
+    },
+    "audio_features": {
+      "bpm": 136.0,
+      "key": "D",
+      "mode": "major",
+      "confidence": 0.903,
+      "camelot": "10B",
+      "spectral_centroid": 1982.611279847592,
+      "spectral_rolloff": 4691.436721170093,
+      "zero_crossing_rate": 0.055100840872289496,
+      "rms_energy": 0.14378808438777924,
+      "intro_end_sec": 0.26,
+      "outro_start_sec": 240.93,
+      "duration_sec": 247.35
+    }
+  },
+  "f5909bbb": {
+    "metadata": {
+      "filename": "krematorij-07-leto.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-07-leto.mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "07-Leto",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "melancholic",
+      "tempo_feel": 5,
+      "instrumentation": "rock",
+      "complexity": 7,
+      "danceability": 3,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "nostalgia",
+        "seasons",
+        "reflection"
+      ],
+      "similar_artists": [
+        "Kino",
+        "Aquarium",
+        "DDT"
+      ],
+      "transition_compatibility": [
+        "alternative rock",
+        "post-punk"
+      ]
+    },
+    "audio_features": {
+      "bpm": 129.2,
+      "key": "E",
+      "mode": "minor",
+      "confidence": 0.609,
+      "camelot": "9A",
+      "spectral_centroid": 1969.3275224461117,
+      "spectral_rolloff": 4731.759561266288,
+      "zero_crossing_rate": 0.060233722362437105,
+      "rms_energy": 0.11215122789144516,
+      "intro_end_sec": 0.51,
+      "outro_start_sec": 162.7,
+      "duration_sec": 179.96
+    }
+  },
+  "ee542ea8": {
+    "metadata": {
+      "filename": "krematorij-xx-eva.(geroi.ejednevnoi.voiny).mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-xx-eva.(geroi.ejednevnoi.voiny).mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "Xx-Eva.(Geroi.Ejednevnoi.Voiny)",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "dark",
+      "tempo_feel": 7,
+      "instrumentation": "rock",
+      "complexity": 6,
+      "danceability": 4,
+      "vocality": 8,
+      "era": "80s",
+      "lyrical_themes": [
+        "war",
+        "heroism",
+        "existential struggle"
+      ],
+      "similar_artists": [
+        "Kino",
+        "Agata Kristi",
+        "Nautilus Pompilius"
+      ],
+      "transition_compatibility": [
+        "post-punk",
+        "new wave"
+      ]
+    },
+    "audio_features": {
+      "bpm": 86.1,
+      "key": "G",
+      "mode": "major",
+      "confidence": 0.901,
+      "camelot": "9B",
+      "spectral_centroid": 2153.2906270463404,
+      "spectral_rolloff": 5014.713753873685,
+      "zero_crossing_rate": 0.0552562463648701,
+      "rms_energy": 0.17896750569343567,
+      "intro_end_sec": 0.3,
+      "outro_start_sec": 235.54,
+      "duration_sec": 239.52
+    }
+  },
+  "3cc420e5": {
+    "metadata": {
+      "filename": "metamatics-for.brother.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Metamatics/metamatics-for.brother.mp3",
+      "artist": "Metamatics",
+      "album": "Spook Tinsel Shoal",
+      "title": "Track  3",
+      "duration": 360,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Electronic",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "introspective",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 4,
+      "vocality": 2,
+      "era": "2000s",
+      "lyrical_themes": [
+        "technology",
+        "isolation",
+        "urban landscapes"
+      ],
+      "similar_artists": [
+        "Autechre",
+        "Boards of Canada",
+        "Aphex Twin"
+      ],
+      "transition_compatibility": [
+        "ambient",
+        "IDM"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "A#",
+      "mode": "minor",
+      "confidence": 0.641,
+      "camelot": "3A",
+      "spectral_centroid": 761.9395793419163,
+      "spectral_rolloff": 1402.1593877517143,
+      "zero_crossing_rate": 0.016893223381865302,
+      "rms_energy": 0.1786900907754898,
+      "intro_end_sec": 0.28,
+      "outro_start_sec": 336.39,
+      "duration_sec": 360.62
+    }
+  },
+  "73805175": {
+    "metadata": {
+      "filename": "royksopp - 06 - A Higher Place.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Royksopp/royksopp - 06 - A Higher Place.mp3",
+      "artist": "Royksopp",
+      "album": "Melody A.M.",
+      "title": "A Higher Place",
+      "duration": 271,
+      "bitrate": 192000,
+      "year": null,
+      "genre": "Electronica & Dance",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "uplifting",
+      "tempo_feel": 6,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 8,
+      "vocality": 4,
+      "era": "2000s",
+      "lyrical_themes": [
+        "transcendence",
+        "escapism",
+        "spiritual journey"
+      ],
+      "similar_artists": [
+        "Air",
+        "Boards of Canada",
+        "Thievery Corporation"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "chillout"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "B",
+      "mode": "minor",
+      "confidence": 0.68,
+      "camelot": "10A",
+      "spectral_centroid": 1842.5170050882039,
+      "spectral_rolloff": 4063.7535806734127,
+      "zero_crossing_rate": 0.06509361518637065,
+      "rms_energy": 0.1640584021806717,
+      "intro_end_sec": 0.26,
+      "outro_start_sec": 261.67,
+      "duration_sec": 271.12
+    }
+  },
+  "51132183": {
+    "metadata": {
+      "filename": "royksopp - 09 She's So.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Royksopp/royksopp - 09 She's So.mp3",
+      "artist": "R\u00f6yksopp - Melody A.M.",
+      "album": null,
+      "title": "09 - She's So",
+      "duration": 322,
+      "bitrate": 158366,
+      "year": null,
+      "genre": "Other",
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 6,
+      "mood": "dreamy",
+      "tempo_feel": 5,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 7,
+      "vocality": 3,
+      "era": "2000s",
+      "lyrical_themes": [
+        "attraction",
+        "desire",
+        "mystique"
+      ],
+      "similar_artists": [
+        "Air",
+        "Boards of Canada",
+        "Thievery Corporation"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient house"
+      ]
+    },
+    "audio_features": {
+      "bpm": 143.6,
+      "key": "G",
+      "mode": "minor",
+      "confidence": 0.697,
+      "camelot": "6A",
+      "spectral_centroid": 1894.9472067051322,
+      "spectral_rolloff": 4206.962031934418,
+      "zero_crossing_rate": 0.07143020602377605,
+      "rms_energy": 0.10757109522819519,
+      "intro_end_sec": 2.72,
+      "outro_start_sec": 303.44,
+      "duration_sec": 322.03
+    }
+  },
+  "8b6a87bc": {
+    "metadata": {
+      "filename": "Portishead - PNYC - 08 - Glory Box.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Portishead/Portishead - PNYC - 08 - Glory Box.mp3",
+      "artist": "Portishead",
+      "album": "PNYC",
+      "title": "Glory Box",
+      "duration": 336,
+      "bitrate": 160000,
+      "year": null,
+      "genre": null,
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 5,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "desire",
+        "vulnerability",
+        "longing"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Thom Yorke",
+        "Bjork"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "B",
+      "mode": "major",
+      "confidence": 0.439,
+      "camelot": "1B",
+      "spectral_centroid": 2261.069434252087,
+      "spectral_rolloff": 4590.590462172327,
+      "zero_crossing_rate": 0.09759380245996901,
+      "rms_energy": 0.24013930559158325,
+      "intro_end_sec": 0.26,
+      "outro_start_sec": 329.21,
+      "duration_sec": 337.14
+    }
+  },
+  "6a1692d7": {
+    "metadata": {
+      "filename": "Teardrop.mp3",
+      "path": "music/Massive Attack/Teardrop.mp3",
+      "artist": "Massive Attack",
+      "title": "Teardrop",
+      "album": null,
+      "duration": 284.2,
+      "source": "discovered"
+    },
+    "embedding": {
+      "energy": 3,
+      "mood": "melancholic",
+      "tempo_feel": 4,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 6,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "love",
+        "vulnerability",
+        "intimacy"
+      ],
+      "similar_artists": [
+        "Portishead",
+        "Tricky",
+        "Thom Yorke"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 76.0,
+      "key": "A",
+      "mode": "major",
+      "confidence": 0.433,
+      "camelot": "11B",
+      "spectral_centroid": 1623.3464924946616,
+      "spectral_rolloff": 3579.9099731445312,
+      "zero_crossing_rate": 0.04837000229779412,
+      "rms_energy": 0.16433268785476685,
+      "intro_end_sec": 5.94,
+      "outro_start_sec": 274.11,
+      "duration_sec": 284.2
+    }
+  }
+}

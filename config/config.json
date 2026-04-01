@@ -1,0 +1,53 @@
+{
+  "project": "Musique Automatique",
+  "version": "0.2.0",
+
+  "music_sources": [
+    {
+      "name": "Local Library",
+      "path": "music",
+      "type": "local",
+      "recursive": true
+    }
+  ],
+
+  "embedding": {
+    "model": "claude-sonnet-4-20250514",
+    "max_retries": 3,
+    "dimensions": [
+      "energy",
+      "mood",
+      "tempo_feel",
+      "instrumentation",
+      "complexity",
+      "danceability",
+      "vocality",
+      "era",
+      "lyrical_themes",
+      "similar_artists",
+      "transition_compatibility"
+    ]
+  },
+
+  "dj_config": {
+    "similarity_threshold": 0.6,
+    "crossfade_duration_ms": 3000,
+    "allow_explicit": true,
+    "prefer_full_albums": false,
+    "variety_factor": 0.3,
+    "default_set_length": 10
+  },
+
+  "audio_analysis": {
+    "sample_rate": 22050,
+    "mono": true,
+    "fade_threshold": 0.25,
+    "fade_window_sec": 30
+  },
+
+  "playback": {
+    "format": "mp3",
+    "quality": "320kbps",
+    "equalizer": "neutral"
+  }
+}

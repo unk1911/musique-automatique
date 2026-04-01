@@ -1,0 +1,105 @@
+{
+  "5dbba39f": {
+    "metadata": {
+      "filename": "chemical_brothers-dope_coil.mp3",
+      "path": "music/Chemical Brothers/chemical_brothers-dope_coil.mp3",
+      "artist": "Chemical Brothers",
+      "album": null,
+      "title": "Dope Coil",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "embedding": {
+      "energy": 8,
+      "mood": "intense",
+      "tempo_feel": 7,
+      "instrumentation": "electronic synths, drum machines, bass, samples",
+      "complexity": 7,
+      "danceability": 8,
+      "vocality": 2,
+      "era": "1990s",
+      "lyrical_themes": [
+        "technology",
+        "urban life"
+      ],
+      "similar_artists": [
+        "The Prodigy",
+        "Fatboy Slim",
+        "Underworld"
+      ],
+      "transition_compatibility": [
+        "big beat",
+        "breakbeat"
+      ]
+    },
+    "audio_features": {
+      "bpm": 103.4,
+      "key": "F",
+      "mode": "minor",
+      "confidence": 0.404,
+      "camelot": "4A",
+      "spectral_centroid": 1989.9283018011743,
+      "spectral_rolloff": 4482.480673421008,
+      "zero_crossing_rate": 0.08065795203223479,
+      "rms_energy": 0.12555283308029175,
+      "intro_end_sec": 0.09,
+      "outro_start_sec": 303.83,
+      "duration_sec": 305.76
+    }
+  },
+  "8b6a87bc": {
+    "metadata": {
+      "filename": "Portishead - PNYC - 08 - Glory Box.mp3",
+      "path": "music/Portishead/Portishead - PNYC - 08 - Glory Box.mp3",
+      "artist": "Portishead",
+      "album": "PNYC",
+      "title": "Glory Box",
+      "duration": 336,
+      "bitrate": 160000,
+      "year": null,
+      "genre": null,
+      "source": "id3"
+    },
+    "embedding": {
+      "energy": 4,
+      "mood": "melancholic",
+      "tempo_feel": 3,
+      "instrumentation": "electronic",
+      "complexity": 7,
+      "danceability": 5,
+      "vocality": 8,
+      "era": "90s",
+      "lyrical_themes": [
+        "desire",
+        "vulnerability",
+        "longing"
+      ],
+      "similar_artists": [
+        "Massive Attack",
+        "Thom Yorke",
+        "Bjork"
+      ],
+      "transition_compatibility": [
+        "downtempo",
+        "ambient"
+      ]
+    },
+    "audio_features": {
+      "bpm": 117.5,
+      "key": "B",
+      "mode": "major",
+      "confidence": 0.439,
+      "camelot": "1B",
+      "spectral_centroid": 2261.069434252087,
+      "spectral_rolloff": 4590.590462172327,
+      "zero_crossing_rate": 0.09759380245996901,
+      "rms_energy": 0.24013930559158325,
+      "intro_end_sec": 0.26,
+      "outro_start_sec": 329.21,
+      "duration_sec": 337.14
+    }
+  }
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "position": 1,
+    "metadata": {
+      "filename": "Portishead - PNYC - 08 - Glory Box.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Portishead/Portishead - PNYC - 08 - Glory Box.mp3",
+      "artist": "Portishead",
+      "album": "PNYC",
+      "title": "Glory Box",
+      "duration": 336,
+      "bitrate": 160000,
+      "year": null,
+      "genre": null,
+      "source": "id3"
+    },
+    "mood": "melancholic",
+    "energy": 4
+  },
+  {
+    "position": 2,
+    "metadata": {
+      "filename": "12 everlast - today (watch me shine).mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/12 everlast - today (watch me shine).mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "Today",
+      "duration": 301,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "mood": "introspective",
+    "energy": 4
+  },
+  {
+    "position": 3,
+    "metadata": {
+      "filename": "krematorij-07-leto.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-07-leto.mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "07-Leto",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "mood": "melancholic",
+    "energy": 6
+  },
+  {
+    "position": 4,
+    "metadata": {
+      "filename": "10 everlast - prince paul.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/10 everlast - prince paul.mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "Prince Paul",
+      "duration": 58,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "mood": "introspective",
+    "energy": 6
+  },
+  {
+    "position": 5,
+    "metadata": {
+      "filename": "U2 - Red Hill Mining Town.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/U2/U2 - Red Hill Mining Town.mp3",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "title": "Red Hill Mining Town",
+      "duration": 293,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rock",
+      "source": "id3"
+    },
+    "mood": "melancholic",
+    "energy": 6
+  },
+  {
+    "position": 6,
+    "metadata": {
+      "filename": "krematorij-05-kot.(sublimaciya).mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-05-kot.(sublimaciya).mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "05-Kot.(Sublimaciya)",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "mood": "melancholic",
+    "energy": 7
+  },
+  {
+    "position": 7,
+    "metadata": {
+      "filename": "U2 - 08 trip through your wires.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/U2/U2 - 08 trip through your wires.mp3",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "title": "Trip Through Your Wires",
+      "duration": 212,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rock",
+      "source": "id3"
+    },
+    "mood": "yearning",
+    "energy": 6
+  },
+  {
+    "position": 8,
+    "metadata": {
+      "filename": "06 - Message from the Black Star.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Laibach/06 - Message from the Black Star.mp3",
+      "artist": "Laibach",
+      "album": "Jesus Christ Superstars",
+      "title": "Message from the Black Star",
+      "duration": 350,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "General Rock",
+      "source": "id3"
+    },
+    "mood": "dark",
+    "energy": 7
+  },
+  {
+    "position": 9,
+    "metadata": {
+      "filename": "04 - Abuse and Confession.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Laibach/04 - Abuse and Confession.mp3",
+      "artist": "Laibach",
+      "album": "Jesus Christ Superstars",
+      "title": "Abuse and Confession",
+      "duration": 374,
+      "bitrate": 160000,
+      "year": null,
+      "genre": "General Rock",
+      "source": "id3"
+    },
+    "mood": "dark",
+    "energy": 8
+  },
+  {
+    "position": 10,
+    "metadata": {
+      "filename": "krematorij-xx-eva.(geroi.ejednevnoi.voiny).mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-xx-eva.(geroi.ejednevnoi.voiny).mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "Xx-Eva.(Geroi.Ejednevnoi.Voiny)",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "mood": "dark",
+    "energy": 8
+  },
+  {
+    "position": 11,
+    "metadata": {
+      "filename": "krematorij-04-kaini.dizaini.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Krematorij/krematorij-04-kaini.dizaini.mp3",
+      "artist": "Krematorij",
+      "album": null,
+      "title": "04-Kaini.Dizaini",
+      "duration": null,
+      "bitrate": null,
+      "year": null,
+      "genre": null,
+      "source": "filename"
+    },
+    "mood": "dark introspective",
+    "energy": 7
+  },
+  {
+    "position": 12,
+    "metadata": {
+      "filename": "16 everlast - the letter.mp3",
+      "path": "/home/clawd/.openclaw/workspace/musique-atomatique/music/Everlast/16 everlast - the letter.mp3",
+      "artist": "Everlast",
+      "album": "Whitey Ford Sings the Blues",
+      "title": "The Letter",
+      "duration": 125,
+      "bitrate": 128000,
+      "year": null,
+      "genre": "Rap",
+      "source": "id3"
+    },
+    "mood": "introspective",
+    "energy": 6
+  }
+]
