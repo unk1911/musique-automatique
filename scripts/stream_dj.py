@@ -266,13 +266,14 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
             result = None
             if REQUEST_FILE.exists():
                 try:
-                    req_id = REQUEST_FILE.read_text().strip()
+                    req = json.loads(REQUEST_FILE.read_text())
                     REQUEST_FILE.unlink(missing_ok=True)
-                    with open(VECTORS_FILE) as _vf:
-                        vectors = json.load(_vf)
-                    if req_id in vectors:
-                        result = (req_id, vectors[req_id], 1.0)
-                        print("\n  --- Transitioning to requested song ---")
+                    req_id = req["id"]
+                    req_data = req["data"]
+                    # Inject into in-memory vectors so it persists
+                    vectors[req_id] = req_data
+                    result = (req_id, req_data, 1.0)
+                    print("\n  --- Transitioning to requested song ---")
                 except Exception:
                     pass
 
@@ -434,7 +435,7 @@ def request_next(query: str):
     if result:
         song_id, song_data = result
         meta = song_data["metadata"]
-        REQUEST_FILE.write_text(song_id)
+        REQUEST_FILE.write_text(json.dumps({"id": song_id, "data": song_data}))
         print(f"Queued: {meta.get('artist')} - {meta.get('title')}")
     else:
         print("Failed to queue song.")
