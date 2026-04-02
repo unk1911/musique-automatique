@@ -150,13 +150,6 @@ def write_pcm(pipe, raw_data: bytes) -> bool:
     offset = 0
     while offset < len(raw_data) and not _stopping:
         if SKIP_FILE.exists():
-            # Flush phone's audio buffer with silence so it stops immediately
-            silence = bytes(SAMPLE_RATE * CHANNELS * SAMPLE_WIDTH * 2)  # ~2s silence
-            try:
-                pipe.write(silence)
-                pipe.flush()
-            except BrokenPipeError:
-                raise ConnectionError("ADB pipe broken -- phone disconnected?")
             return True
         end = min(offset + CHUNK_SIZE, len(raw_data))
         chunk = raw_data[offset:end]
@@ -167,6 +160,20 @@ def write_pcm(pipe, raw_data: bytes) -> bool:
             raise ConnectionError("ADB pipe broken -- phone disconnected?")
         offset = end
     return False
+
+
+def restart_stream() -> subprocess.Popen:
+    """Kill the current StreamAudio process and open a fresh one."""
+    global _adb_proc
+    if _adb_proc:
+        try:
+            _adb_proc.stdin.close()
+        except Exception:
+            pass
+        _adb_proc.wait(timeout=3)
+    kill_existing()
+    _adb_proc = open_stream()
+    return _adb_proc
 
 
 def calculate_crossfade(current_data: Dict, next_data: Dict, default_ms: int) -> int:
@@ -340,7 +347,10 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
             body = current_audio[:-xfade_ms]
             skipped = write_pcm(proc.stdin, body.raw_data)
 
-            if not skipped:
+            if skipped:
+                # Kill and restart the phone-side player to stop buffered audio instantly
+                proc = restart_stream()
+            else:
                 # Crossfade: blend tail of current with head of next
                 tail = current_audio[-xfade_ms:]
                 head = next_audio[:xfade_ms]
