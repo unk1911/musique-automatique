@@ -43,6 +43,9 @@ python3 scripts/stream_dj.py --seed "title:Dope Coil" --crossfade 5000 --volume 
 python3 scripts/stream_dj.py --next "Lou Reed - Coney Island Baby"
 python3 scripts/stream_dj.py --next "artist:Radiohead,title:Creep"
 
+# Skip the current song immediately
+python3 scripts/stream_dj.py --skip
+
 # Stop the DJ
 python3 scripts/stream_dj.py --stop
 ```
@@ -50,6 +53,7 @@ python3 scripts/stream_dj.py --stop
 **Options:**
 - `--seed` -- seed query (artist, title, or field:value pairs); omit for random
 - `--next` -- queue a song as the next track; downloads from YouTube if not in library
+- `--skip` -- immediately stop the current song and jump to the next one
 - `--variety` -- 0.0 (always most similar) to 1.0 (more random), default 0.3
 - `--crossfade` -- crossfade duration in ms, default 3000
 - `--volume` -- phone volume 0-100, default 75
