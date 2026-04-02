@@ -142,12 +142,22 @@ def load_and_normalize(song_path: str) -> Optional[AudioSegment]:
         return None
 
 
-def write_pcm(pipe, raw_data: bytes):
-    """Write raw PCM bytes to the ADB pipe in chunks."""
+def write_pcm(pipe, raw_data: bytes) -> bool:
+    """Write raw PCM bytes to the ADB pipe in chunks.
+
+    Returns True if interrupted by a skip request, False otherwise.
+    """
     offset = 0
     while offset < len(raw_data) and not _stopping:
         if SKIP_FILE.exists():
-            break
+            # Flush phone's audio buffer with silence so it stops immediately
+            silence = bytes(SAMPLE_RATE * CHANNELS * SAMPLE_WIDTH * 2)  # ~2s silence
+            try:
+                pipe.write(silence)
+                pipe.flush()
+            except BrokenPipeError:
+                raise ConnectionError("ADB pipe broken -- phone disconnected?")
+            return True
         end = min(offset + CHUNK_SIZE, len(raw_data))
         chunk = raw_data[offset:end]
         try:
@@ -156,6 +166,7 @@ def write_pcm(pipe, raw_data: bytes):
         except BrokenPipeError:
             raise ConnectionError("ADB pipe broken -- phone disconnected?")
         offset = end
+    return False
 
 
 def calculate_crossfade(current_data: Dict, next_data: Dict, default_ms: int) -> int:
@@ -327,13 +338,14 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
 
             # Stream current song body (everything except the crossfade tail)
             body = current_audio[:-xfade_ms]
-            write_pcm(proc.stdin, body.raw_data)
+            skipped = write_pcm(proc.stdin, body.raw_data)
 
-            # Crossfade: blend tail of current with head of next
-            tail = current_audio[-xfade_ms:]
-            head = next_audio[:xfade_ms]
-            blended = tail.fade_out(xfade_ms).overlay(head.fade_in(xfade_ms))
-            write_pcm(proc.stdin, blended.raw_data)
+            if not skipped:
+                # Crossfade: blend tail of current with head of next
+                tail = current_audio[-xfade_ms:]
+                head = next_audio[:xfade_ms]
+                blended = tail.fade_out(xfade_ms).overlay(head.fade_in(xfade_ms))
+                write_pcm(proc.stdin, blended.raw_data)
 
             # Advance
             current_audio = next_audio[xfade_ms:]  # remaining part of next song
