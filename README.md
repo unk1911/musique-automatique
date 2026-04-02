@@ -22,8 +22,8 @@ python3 scripts/embed_songs.py
 # 3. Analyze audio features (BPM, key, fade points)
 python3 scripts/playback_analysis.py
 
-# 4. Stream live DJ to phone
-python3 scripts/stream_dj.py --seed "artist:Portishead"
+# 4. Stream live DJ to phone (random seed)
+python3 scripts/stream_dj.py
 ```
 
 ## Live Streaming DJ
@@ -31,17 +31,25 @@ python3 scripts/stream_dj.py --seed "artist:Portishead"
 Streams crossfaded audio directly to your phone speaker via ADB. Picks each next song dynamically based on semantic similarity.
 
 ```bash
-# Start from a seed song/artist
+# Start with a random song (default)
+python3 scripts/stream_dj.py
+
+# Start from a specific seed
 python3 scripts/stream_dj.py --seed "artist:Portishead,title:Glory Box"
 python3 scripts/stream_dj.py --seed "Chemical Brothers" --variety 0.5
 python3 scripts/stream_dj.py --seed "title:Dope Coil" --crossfade 5000 --volume 80
+
+# Queue a specific song as next (downloads from YouTube if not in library)
+python3 scripts/stream_dj.py --next "Lou Reed - Coney Island Baby"
+python3 scripts/stream_dj.py --next "artist:Radiohead,title:Creep"
 
 # Stop the DJ
 python3 scripts/stream_dj.py --stop
 ```
 
 **Options:**
-- `--seed` -- seed query (artist, title, or field:value pairs)
+- `--seed` -- seed query (artist, title, or field:value pairs); omit for random
+- `--next` -- queue a song as the next track; downloads from YouTube if not in library
 - `--variety` -- 0.0 (always most similar) to 1.0 (more random), default 0.3
 - `--crossfade` -- crossfade duration in ms, default 3000
 - `--volume` -- phone volume 0-100, default 75
@@ -69,8 +77,8 @@ python3 scripts/play.py --dry-run
 ## Directory Structure
 
 ```
-musique-atomatique/
-├── music/              # MP3 library (organized as Artist/Album/Track.mp3)
+musique-automatique/
+├── music/              # MP3 library (flat directory of MP3s)
 ├── embeddings/
 │   ├── metadata.json   # Song metadata (artist, album, title, etc.)
 │   ├── vectors.json    # Semantic embeddings + audio features per song
