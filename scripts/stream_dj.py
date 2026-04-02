@@ -53,6 +53,7 @@ ADB_AUDIO_PLAYER = Path(__file__).parent.parent.parent / "adb-audio-player"
 LOCAL_DEX = ADB_AUDIO_PLAYER / "bin" / "stream.dex"
 REMOTE_DEX = "/data/local/tmp/stream.dex"
 REQUEST_FILE = Path("/tmp/musique.next")
+SKIP_FILE = Path("/tmp/musique.skip")
 
 # Global for signal handler
 _adb_proc: Optional[subprocess.Popen] = None
@@ -145,6 +146,8 @@ def write_pcm(pipe, raw_data: bytes):
     """Write raw PCM bytes to the ADB pipe in chunks."""
     offset = 0
     while offset < len(raw_data) and not _stopping:
+        if SKIP_FILE.exists():
+            break
         end = min(offset + CHUNK_SIZE, len(raw_data))
         chunk = raw_data[offset:end]
         try:
@@ -263,6 +266,11 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
 
     try:
         while not _stopping:
+            # Check for skip request
+            if SKIP_FILE.exists():
+                SKIP_FILE.unlink(missing_ok=True)
+                print("\n  --- Skipping ---")
+
             # Check for a manually requested next song
             result = None
             if REQUEST_FILE.exists():
@@ -468,6 +476,7 @@ def main():
     )
     parser.add_argument("--seed", help='Seed query, e.g. "artist:Portishead" (default: random)')
     parser.add_argument("--stop", action="store_true", help="Stop the currently running DJ")
+    parser.add_argument("--skip", action="store_true", help="Skip the current song immediately")
     parser.add_argument("--next", metavar="QUERY", help='Queue a song as next, e.g. "Lou Reed - Coney Island Baby"')
     parser.add_argument("--variety", type=float, default=None, help="Variety factor 0.0-1.0")
     parser.add_argument("--crossfade", type=int, default=None, help="Base crossfade duration in ms")
@@ -476,6 +485,11 @@ def main():
 
     if args.stop:
         stop_dj()
+        return
+
+    if args.skip:
+        SKIP_FILE.touch()
+        print("Skipping current song...")
         return
 
     if args.next:
