@@ -18,6 +18,7 @@ Requires:
 
 import argparse
 import json
+import random
 import signal
 import subprocess
 import sys
@@ -270,12 +271,15 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
                     REQUEST_FILE.unlink(missing_ok=True)
                     req_id = req["id"]
                     req_data = req["data"]
-                    # Inject into in-memory vectors so it persists
-                    vectors[req_id] = req_data
-                    result = (req_id, req_data, 1.0)
-                    print("\n  --- Transitioning to requested song ---")
-                except Exception:
-                    pass
+                    if req_id == current_id:
+                        pass  # already playing this song, ignore stale request
+                    else:
+                        # Inject into in-memory vectors so it persists
+                        vectors[req_id] = req_data
+                        result = (req_id, req_data, 1.0)
+                        print("\n  --- Transitioning to requested song ---")
+                except Exception as _req_err:
+                    sys.stderr.write(f"  Request file error: {_req_err}\n")
 
             # Pick next song
             if result is None:
@@ -403,7 +407,7 @@ def fetch_on_demand(query: str) -> Optional[Tuple[str, Dict]]:
     try:
         import anthropic as _anthropic
         _client = _anthropic.Anthropic()
-        embedding = generate_song_embedding(_client, {"artist": artist, "title": title, "album": None})
+        embedding = generate_song_embedding({"artist": artist, "title": title, "album": None}, _client)
     except Exception as exc:
         print(f"  Embedding failed: {exc}")
         embedding = {}
@@ -462,7 +466,7 @@ def main():
         description="Musique Automatique Live Streaming DJ",
         epilog='Example: %(prog)s --seed "artist:Portishead"',
     )
-    parser.add_argument("--seed", help='Seed query, e.g. "artist:Portishead"')
+    parser.add_argument("--seed", help='Seed query, e.g. "artist:Portishead" (default: random)')
     parser.add_argument("--stop", action="store_true", help="Stop the currently running DJ")
     parser.add_argument("--next", metavar="QUERY", help='Queue a song as next, e.g. "Lou Reed - Coney Island Baby"')
     parser.add_argument("--variety", type=float, default=None, help="Variety factor 0.0-1.0")
@@ -479,7 +483,16 @@ def main():
         return
 
     if not args.seed:
-        parser.error("--seed is required (or use --stop)")
+        if not VECTORS_FILE.exists():
+            parser.error("No vectors.json found. Run embed_songs.py first.")
+        with open(VECTORS_FILE) as f:
+            vectors = json.load(f)
+        if not vectors:
+            parser.error("Library is empty.")
+        random_id = random.choice(list(vectors.keys()))
+        meta = vectors[random_id]["metadata"]
+        args.seed = f"artist:{meta.get('artist', '')},title:{meta.get('title', meta.get('filename', ''))}"
+        print(f"Random seed: {meta.get('artist', '?')} - {meta.get('title', meta.get('filename', '?'))}")
 
     # Read defaults from config
     variety = args.variety
