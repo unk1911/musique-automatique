@@ -170,7 +170,11 @@ def restart_stream() -> subprocess.Popen:
             _adb_proc.stdin.close()
         except Exception:
             pass
-        _adb_proc.wait(timeout=3)
+        _adb_proc.kill()
+        try:
+            _adb_proc.wait(timeout=3)
+        except subprocess.TimeoutExpired:
+            pass
     kill_existing()
     _adb_proc = open_stream()
     return _adb_proc
@@ -383,7 +387,11 @@ def stream_dj(seed_query: str, variety: float, crossfade_ms: int, volume: int):
                 proc.stdin.close()
             except Exception:
                 pass
-        proc.wait(timeout=5)
+        proc.kill()
+        try:
+            proc.wait(timeout=5)
+        except subprocess.TimeoutExpired:
+            pass
         print("Done.")
 
 
